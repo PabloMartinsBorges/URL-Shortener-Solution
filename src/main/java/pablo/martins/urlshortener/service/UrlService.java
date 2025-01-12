@@ -3,11 +3,8 @@ package pablo.martins.urlshortener.service;
 import jakarta.servlet.http.HttpServletRequest;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.springframework.http.HttpHeaders;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.web.servlet.function.ServerRequest;
 import pablo.martins.urlshortener.dto.ShortenUrlRequest;
-import pablo.martins.urlshortener.dto.ShortenUrlResponse;
 import pablo.martins.urlshortener.entities.UrlEntity;
 import pablo.martins.urlshortener.repository.UrlRepository;
 
